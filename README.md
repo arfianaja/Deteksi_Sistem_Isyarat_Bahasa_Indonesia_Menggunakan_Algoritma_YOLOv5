@@ -25,9 +25,9 @@ Aplikasi ini dibuat untuk mendeteksi isyarat tangan secara real-time menggunakan
     ```bash
     pip install -r requirements.txt
     ```
-3. **Menjalankan Aplikasi**: Jalankan aplikasi dengan perintah berikut:
+3. Jalankan aplikasi dengan perintah berikut:
     ```bash
-    python main.py
+    flask run
     ```
 
 ## Penggunaan
