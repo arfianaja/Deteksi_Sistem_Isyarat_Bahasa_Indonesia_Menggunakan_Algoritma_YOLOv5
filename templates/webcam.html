@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>DETSIB || ARPIAN</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("static/bg/bg-1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .header {
+        background-color: #212529;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 30px;
+        margin: 0;
+      }
+
+      .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+
+      .intro-section {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .intro-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .intro-section p {
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+
+      .video-container {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .video-container img {
+        max-width: 100%;
+        border-radius: 35px;
+      }
+
+      .footer {
+        background-color: #212529;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      /* Tambahkan style untuk gambar yang muncul saat huruf A terdeteksi */
+      .image-overlay {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        display: none;
+      }
+
+      .image-overlay img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Deteksi Sistem Isyarat Bahasa Indonesia</h1>
+    </div>
+
+    <div class="main-content">
+      <div class="intro-section">
+        <h2>Real Time deteksi dengan YOLOV5</h2>
+        <p>Experience advanced object detection in real time.</p>
+      </div>
+
+      <div class="video-container">
+        <img src="{{ url_for('video') }}" />
+      </div>
+
+      <!-- Tambahkan div untuk overlay gambar -->
+      <div class="image-overlay" id="image-overlay">
+        <img id="overlay-image" />
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; 2023 Punya Pian yahhh wey, (ig: _arfian__). All rights reserved.
+    </div>
+  </body>
+</html>
