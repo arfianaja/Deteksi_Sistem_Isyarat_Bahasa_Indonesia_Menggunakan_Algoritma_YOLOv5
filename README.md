@@ -13,6 +13,7 @@ Aplikasi ini dibuat untuk mendeteksi isyarat tangan secara real-time menggunakan
 - Python 3.6+ 
 - OpenCV 3.4+
 - PyTorch 1.0+
+- Flask 1.1.1
 
 ### Langkah Installasi
 
