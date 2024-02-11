@@ -1,7 +1,7 @@
 # Deteksi_Sistem_Isyarat_Bahasa_Indonesia_Menggunakan_Algoritma_YOLOv5
 Tugas akhir untuk mendapatkan gelar S.KOM dari Universitas Muhammadiyah Sorong
 
-Aplikasi ini dibuat untuk mendeteksi isyarat tangan secara real-time menggunakan webcam. Aplikasi mengimplementasikan algoritma YOLOv3 untuk melakukan deteksi objek pada setiap frame gambar dari webcam. 
+Aplikasi ini dibuat untuk mendeteksi isyarat tangan secara real-time menggunakan webcam. Aplikasi mengimplementasikan algoritma YOLOv5 untuk melakukan deteksi isyarat pada setiap frame gambar dari webcam. 
 ## Tampilan Aplikasi
 
 ![Tampilan Aplikasi](static/bg.jpeg)
