@@ -19,7 +19,7 @@ Aplikasi ini dibuat untuk mendeteksi isyarat tangan secara real-time menggunakan
 1. Clone repo ini 
 
    ```bash
-   git clone https://github.com/isyaratid/deteksi-isyarat.git
+   git clone https://github.com/arfianaja/Deteksi_Sistem_Isyarat_Bahasa_Indonesia_Menggunakan_Algoritma_YOLOv5.git
    ```
 2. Install requirements
     ```bash
